@@ -1,6 +1,7 @@
 {
   "htmlElements": {
     "tags": [
+      "![image](ellie.png)",
       "a",
       "article",
       "aside",
@@ -25,6 +26,7 @@
       "head",
       "header",
       "html",
+      "img",
       "input",
       "kbd",
       "label",
@@ -247,7 +249,7 @@
       "further-reading",
       "getting-logs-and-events",
       "going-inside-the-pod",
-      "introduction",
+      "h-rh-i-0",
       "need-help-with-life",
       "offcanvasNavMain",
       "offcanvasNavMainLabel",

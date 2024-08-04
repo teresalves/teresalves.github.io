@@ -10,6 +10,20 @@
     <lastBuildDate>Tue, 27 Feb 2024 09:30:56 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Quick Summary</title>
+      <link>http://localhost:1313/aboutme/aboutme/quick-summary/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/aboutme/aboutme/quick-summary/</guid>
+      <description>Hello and welcome! 👋&#xA;I am Teresa Alves, a Software Engineer from Portugal 🇵🇹 I have a background in Control and Automation (aka Math and Robots) and I have professional experience as a backend, platform and systems engineer.</description>
+    </item>
+    <item>
+      <title>Dogs</title>
+      <link>http://localhost:1313/aboutme/aboutme/dogs/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/aboutme/aboutme/dogs/</guid>
+      <description>This is the best dog, Ellie:&#xA;Right now, she is my only pup. Maybe when she gets less crazy I can get another one.</description>
+    </item>
+    <item>
       <title>Example Post</title>
       <link>http://localhost:1313/blog/example-post/</link>
       <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
@@ -29,13 +43,6 @@
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
       <guid>http://localhost:1313/aboutme/events/public-speaking-events/</guid>
       <description>Diversity and Inclusion in the tech world 27/06/2024 I was a guest in an event for Career Management in Tech where I spoke about the importance of diversity and inclusion in the workplace, as a representative of As Raparigas do Código.</description>
-    </item>
-    <item>
-      <title>Quick Summary</title>
-      <link>http://localhost:1313/aboutme/aboutme/quick-summary/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/aboutme/aboutme/quick-summary/</guid>
-      <description>Introduction Hello and welcome! I am Teresa Alves, a Software Engineer from Portugal 🇵🇹 I have a background in Control and Automation (aka Math and Robots) and I have professional experience as a backend, platform and systems engineer.</description>
     </item>
     <item>
       <title>Basic Commands</title>

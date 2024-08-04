@@ -5,7 +5,7 @@ summary: ""
 date: 2023-09-07T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
-weight: 810
+weight: 10
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -13,9 +13,9 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-## Introduction
 
-Hello and welcome!
+Hello and welcome! 👋
+
 I am Teresa Alves, a Software Engineer from Portugal 🇵🇹
 I have a background in Control and Automation (aka Math and Robots) and I have professional experience as a backend, platform and systems engineer.
 
