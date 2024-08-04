@@ -14,10 +14,10 @@
 
 <link rel="stylesheet" href="/main.01b0834d5af51b24812d02878d09c8d7677d6b8af13164fb50215889dc19aaefd0e9366c13b45a9a57ae481dfd1836bce46b5ebfe461d56e3498b9443d8c5e27.css" integrity="sha512-AbCDTVr1GySBLQKHjQnI12d9a4rxMWT7UCFYidwZqu/Q6TZsE7RamleuSB39GDa85Gtev&#43;Rh1W40mLlEPYxeJw==" crossorigin="anonymous">
 
-<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/tags/">
-  <link rel="canonical" href="http://localhost:1313/tags/"><link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/index.xml" title="Tags | Teresa Alves">
-<title>Tags  |  Teresa Alves</title>
-<meta name="description" content="Congrats on setting up a new Doks project!">
+<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/docs/kubernetes/basic-commands/">
+  <link rel="canonical" href="http://localhost:1313/docs/kubernetes/basic-commands/">
+<title>Basic Commands  |  Teresa Alves</title>
+<meta name="description" content="Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.">
 
     
     <link rel="icon" href="/favicon.ico" sizes="32x32">
@@ -43,16 +43,20 @@
         type="image/png"
       >
 <link rel="manifest" href="/manifest.webmanifest">
-<meta property="og:title" content="Tags">
-<meta property="og:description" content="Congrats on setting up a new Doks project!">
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://localhost:1313/tags/"><meta property="og:image" content="http://localhost:1313/cover.png"><meta property="og:site_name" content="Teresa Alves">
+<meta property="og:title" content="Basic Commands">
+<meta property="og:description" content="Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:1313/docs/kubernetes/basic-commands/"><meta property="og:image" content="http://localhost:1313/cover.png"><meta property="article:section" content="docs">
+<meta property="article:published_time" content="2023-09-07T16:04:48+02:00">
+<meta property="article:modified_time" content="2023-09-07T16:04:48+02:00"><meta property="og:site_name" content="Teresa Alves">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://localhost:1313/cover.png"><meta name="twitter:title" content="Tags">
-<meta name="twitter:description" content="Congrats on setting up a new Doks project!">
+<meta name="twitter:image" content="http://localhost:1313/cover.png"><meta name="twitter:title" content="Basic Commands">
+<meta name="twitter:description" content="Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.">
 <meta name="twitter:site" content="@getdoks">
 
+    
+    
     <script type="application/ld+json">
   {
    "@context": "https://schema.org",
@@ -66,8 +70,20 @@
      },
      {
        "@type": "ListItem",
-       "name": "Tags",
+       "item": "http://localhost:1313/docs/",
+       "name": "Docs",
        "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/docs/kubernetes/",
+       "name": "Kubernetes",
+       "position": 3
+     },
+     {
+       "@type": "ListItem",
+       "name": "Basic Commands",
+       "position": 4
      }
    ]
  }
@@ -80,7 +96,7 @@
 </head>
 
   
-  <body class="list taxonomy tags" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
+  <body class="single section docs" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
     <div class="sticky-top">
 <header class="navbar navbar-expand-lg">
   <div class="container-lg">
@@ -97,6 +113,66 @@
       </svg>
     </button>
     
+    <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection" aria-label="Open section navigation menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+        <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+        <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+      </svg>
+    </button>
+    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection" aria-labelledby="offcanvasNavSectionLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavSectionLabel">Docs</h5>
+        <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M18 6l-12 12"></path>
+            <path d="M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <aside class="doks-sidebar mt-n3">
+          <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+            
+  
+    
+<nav class="section-nav docs-links">
+  <ul class="list-unstyled">
+
+  <li>
+    <details open open>
+      <summary>Kubernetes</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li class="active" >
+      <a aria-current="page" href="/docs/kubernetes/basic-commands/">Basic Commands</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details>
+      <summary>Reference</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/reference/basic-commands/">Basic Commands</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+  </ul>
+</nav>
+
+  
+
+          </nav>
+        </aside>
+      </div>
+    </div>
     
     <button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain" aria-label="Open main navigation menu">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -124,7 +200,7 @@
                 <a class="nav-link" href="http://localhost:1313/aboutme/aboutme/quick-summary/">About Me</a>
               </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://localhost:1313/docs/kubernetes/basic-commands/">Docs</a>
+                <a class="nav-link active" href="http://localhost:1313/docs/kubernetes/basic-commands/" aria-current="true">Docs</a>
               </li>
             <li class="nav-item">
                 <a class="nav-link" href="http://localhost:1313/blog/">Blog</a>
@@ -220,16 +296,162 @@
       <div class="content">
       
         
-<div class="row justify-content-center">
-  <div class="col-md-12 col-lg-10 col-xl-8">
-    <h1 class="text-center">Tags</h1>
-    <div class="text-center"></div>
-    <div class="card-list">
-      
-    </div>
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			
+  
     
-  </div>
+<nav class="section-nav docs-links">
+  <ul class="list-unstyled">
+
+  <li>
+    <details open open>
+      <summary>Kubernetes</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li class="active" >
+      <a aria-current="page" href="/docs/kubernetes/basic-commands/">Basic Commands</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details>
+      <summary>Reference</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/reference/basic-commands/">Basic Commands</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+  </ul>
+</nav>
+
+  
+
+		</div>
+		
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="page-links">
+  <h3>On this page</h3>
+    <nav id="toc">
+  <ul>
+    <li><a href="#baseline-commands">Baseline commands</a></li>
+    <li><a href="#getting-logs-and-events">Getting logs and events</a></li>
+    <li><a href="#creating-secrets">Creating Secrets</a></li>
+    <li><a href="#reading-secrets">Reading secrets:</a></li>
+    <li><a href="#accessing-other-services">Accessing other services:</a></li>
+    <li><a href="#going-inside-the-pod">Going inside the pod</a></li>
+    <li><a href="#requesting-without-an-ingress">Requesting without an ingress</a></li>
+  </ul>
+</nav>
 </div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9">
+		
+			<h1>Basic Commands</h1>
+			
+			<nav class="toc-mobile d-xl-none" aria-label="Quaternary navigation">
+				<details>
+    <summary>On this page</summary>
+    <div class="page-links">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#baseline-commands">Baseline commands</a></li>
+    <li><a href="#getting-logs-and-events">Getting logs and events</a></li>
+    <li><a href="#creating-secrets">Creating Secrets</a></li>
+    <li><a href="#reading-secrets">Reading secrets:</a></li>
+    <li><a href="#accessing-other-services">Accessing other services:</a></li>
+    <li><a href="#going-inside-the-pod">Going inside the pod</a></li>
+    <li><a href="#requesting-without-an-ingress">Requesting without an ingress</a></li>
+  </ul>
+</nav>
+    </div>
+  </details>
+
+			</nav>
+			<h2 id="baseline-commands">Baseline commands<a href="#baseline-commands" class="anchor" aria-hidden="true">#</a> </h2>
+<p><code>kubectl get pods</code> - check if the pods are starting correctly. You can add <code>| grep -c &lt;deployment-name&gt;</code> to count how many pods you have at a current time. You can also filter by label: <br>
+<code>kubectl get pods -l 'labelname=labelvalue'</code></p>
+<p><code>kubectl get deploy -o wide</code> - tells you which version it is getting from the repo, so you can be sure that you are deploying to the correct one. You can also check how many replicas are updated.</p>
+<p><code>kubectl get configmap &lt;config-map-name&gt;</code> (or <code>kubectl get cm</code> for lazy people like me) - check the config maps that exist. BUT they all already exist basically, so what you usually want to check is what’s inside them with: <br>
+<code>kubectl describe cm &lt;config-map-name&gt;</code>.</p>
+<p>Note that if you update the configmap, the values read by the pod don’t change automatically. The cm are read at the beginning of the deploy so in order to have it read you need to restart the pods.</p>
+<p><code>kubectl get quota</code> -  if you see your pods are not starting and your deployment is stuck, it might be because you ran out of quota. You can also check errors in the events</p>
+<h2 id="getting-logs-and-events">Getting logs and events<a href="#getting-logs-and-events" class="anchor" aria-hidden="true">#</a> </h2>
+<p>If you need to check events:</p>
+<p><code>kubectl get events --sort-by='.metadata.creationTimestamp'</code></p>
+<p>And now logs:</p>
+<p><code>kubectl get logs -f &lt;pod_name&gt;</code></p>
+<p>Or for pods that have been restarted:</p>
+<p><code>kubectl get logs &lt;pod_name&gt; —previous</code></p>
+<h2 id="creating-secrets">Creating Secrets<a href="#creating-secrets" class="anchor" aria-hidden="true">#</a> </h2>
+<p>Secrets are objects that generally contain sensitive information, such as tokens or secrets. They behave similarly to a configmap but they are used only for sensitive information, so it’s not hardcoded in the application code.</p>
+<p>Each secret can have several keys, and therefore, several passwords or other pieces of information. You can therefore have a secret called <code>credentials</code> where inside you have two keys <code>password</code> and <code>user</code> with each respective value. Don’t forget that when reading a secret in your pod.yaml configs you need to specify both the secret name and the key from which you need the value:</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <pre tabindex="0"><code>- name: ENV_VAR_NAME
+    valueFrom:
+      secretKeyRef:
+        name: secret_name
+        key: password # or whatever your key is</code></pre>
+  </figure>
+</div>
+<h2 id="reading-secrets">Reading secrets:<a href="#reading-secrets" class="anchor" aria-hidden="true">#</a> </h2>
+<p><code>kubectl edit secret &lt;secret—name&gt;</code> and you can see the secret value there (but don’t edit it!)</p>
+<p>but it will show you the secret info and the value encoded in base64. To read it back you must do:</p>
+<p><code>kubectl get secret &lt;SECRET_NAME&gt; &quot;--template={{.data.password}}&quot; | base64 --decode</code></p>
+<p>Note that if you do want to edit it like that, you need to convert it to base64 before that.</p>
+<h2 id="accessing-other-services">Accessing other services:<a href="#accessing-other-services" class="anchor" aria-hidden="true">#</a> </h2>
+<p>From inside the cluster:</p>
+<p><code>curl &lt;service-name&gt;.&lt;namespace-name&gt;:&lt;port&gt;</code></p>
+<p>If the service you are trying to access is in the namespace as your pod currently is, then you can omit the namespace name and just do<br>
+<code>&lt;service-name&gt;:&lt;port&gt;</code></p>
+<p>Or just use the internal ingress associated with the service. Get it with:</p>
+<p><code>kubectl get ingress</code></p>
+<h2 id="going-inside-the-pod">Going inside the pod<a href="#going-inside-the-pod" class="anchor" aria-hidden="true">#</a> </h2>
+<p><code>kubectl exec -it &lt;pod-name&gt; bash</code> → if you have only one container in your pod, it will go inside that container. Otherwise, you will have to specify which container in that pod you are trying to access by using <code>-c &lt;container-name&gt;</code>.</p>
+<p><code>printenv</code> - run this command while inside the container to print all the environment variables that this is reading. It is particularly useful to verify if the config map and secrets are being correctly read in the pod.</p>
+<p><code>ping &lt;url&gt;</code> or <code>curl &lt;url&gt;</code> - some services are not accessible through your local machine, but only inside the cluster. You can run this inside a pod.</p>
+<h2 id="requesting-without-an-ingress">Requesting without an ingress<a href="#requesting-without-an-ingress" class="anchor" aria-hidden="true">#</a> </h2>
+<p><code>kubectl port-forward &lt;pod-name&gt; &lt;local-port:pod-port&gt;</code> - useful to do testing curls from your local machine</p>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="page-nav d-flex flex-column flex-sm-row">
+	
+	<div class="card text-end w-100">
+			<div class="card-body d-flex justify-content-end">
+				<div class="d-flex flex-column">
+					<div class="text-body-secondary">Next</div>
+					<a href="/docs/reference/basic-commands/" class="stretched-link text-reset text-decoration-none">Basic Commands</a>
+				</div>
+				<div class="d-flex flex-column justify-content-center">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M5 12l14 0"></path>
+						<path d="M13 18l6 -6"></path>
+						<path d="M13 6l6 6"></path>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			
+		</main>
+		
+	</div>
 
       
       </div>

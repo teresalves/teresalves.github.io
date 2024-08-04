@@ -2,34 +2,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://localhost:1313/docs/kubernetes/</loc>
+      <loc>http://localhost:1313/aboutme/aboutme/</loc>
       <lastmod>2023-09-07T16:06:50+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/docs/reference/</loc>
-      <lastmod>2023-09-07T16:12:37+02:00</lastmod>
+      <loc>http://localhost:1313/aboutme/events/</loc>
+      <lastmod>2023-09-07T16:06:50+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/docs/resources/</loc>
+      <loc>http://localhost:1313/aboutme/resources/</loc>
       <lastmod>2024-02-27T09:30:56+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://localhost:1313/docs/kubernetes/basic-commands/</loc>
+        <loc>http://localhost:1313/aboutme/aboutme/quick-summary/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/reference/basic-commands/</loc>
-        <lastmod>2023-09-07T16:13:18+02:00</lastmod>
+        <loc>http://localhost:1313/aboutme/events/public-speaking-events/</loc>
+        <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>

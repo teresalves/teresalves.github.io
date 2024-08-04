@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to Doks on My Docs</title>
+    <title>Welcome to Doks on Teresa Alves</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Welcome to Doks on My Docs</description>
+    <description>Recent content in Welcome to Doks on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
@@ -17,18 +17,39 @@
       <description>You can use blog posts for announcing product updates and features.</description>
     </item>
     <item>
-      <title>Example Guide</title>
-      <link>http://localhost:1313/docs/guides/example-guide/</link>
+      <title>Basic Commands</title>
+      <link>http://localhost:1313/docs/kubernetes/basic-commands/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/guides/example-guide/</guid>
-      <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
+      <guid>http://localhost:1313/docs/kubernetes/basic-commands/</guid>
+      <description>Baseline commands kubectl get pods - check if the pods are starting correctly. You can add | grep -c &amp;lt;deployment-name&amp;gt; to count how many pods you have at a current time.</description>
     </item>
     <item>
-      <title>Example Reference</title>
-      <link>http://localhost:1313/docs/reference/example-reference/</link>
+      <title>Public Speaking Events</title>
+      <link>http://localhost:1313/aboutme/events/public-speaking-events/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/aboutme/events/public-speaking-events/</guid>
+      <description>Diversity and Inclusion in the tech world 27/06/2024 I was a guest in an event for Career Management in Tech where I spoke about the importance of diversity and inclusion in the workplace, as a representative of As Raparigas do Código.</description>
+    </item>
+    <item>
+      <title>Quick Summary</title>
+      <link>http://localhost:1313/aboutme/aboutme/quick-summary/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/aboutme/aboutme/quick-summary/</guid>
+      <description>Introduction Hello and welcome! I am Teresa Alves, a Software Engineer from Portugal 🇵🇹 I have a background in Control and Automation (aka Math and Robots) and I have professional experience as a backend, platform and systems engineer.</description>
+    </item>
+    <item>
+      <title>Basic Commands</title>
+      <link>http://localhost:1313/docs/reference/basic-commands/</link>
       <pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate>
-      <guid>http://localhost:1313/docs/reference/example-reference/</guid>
+      <guid>http://localhost:1313/docs/reference/basic-commands/</guid>
       <description>Reference pages are ideal for outlining how things work in terse and clear terms. Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.</description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/aboutme/resources/</link>
+      <pubDate>Tue, 27 Feb 2024 09:30:56 +0100</pubDate>
+      <guid>http://localhost:1313/aboutme/resources/</guid>
+      <description>Link to valuable, relevant resources.</description>
     </item>
     <item>
       <title>Resources</title>
