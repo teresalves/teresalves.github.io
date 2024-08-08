@@ -21,7 +21,7 @@
       <link>http://localhost:1313/aboutme/aboutme/dogs/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
       <guid>http://localhost:1313/aboutme/aboutme/dogs/</guid>
-      <description>Have some dogs here.&#xA;This is the best dog, Ellie:</description>
+      <description>This is the best dog, Ellie:&#xA;Right now, she is my only pup. Maybe when she gets less crazy I can get another one.</description>
     </item>
   </channel>
 </rss>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to Doks on Teresa Alves</title>
+    <title>Teresa Alves</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Welcome to Doks on Teresa Alves</description>
+    <description>Recent content on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
@@ -29,6 +29,13 @@
       <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
       <guid>http://localhost:1313/blog/example-post/</guid>
       <description>You can use blog posts for announcing product updates and features.</description>
+    </item>
+    <item>
+      <title>Overview</title>
+      <link>http://localhost:1313/docs/introduction/overview/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/introduction/overview/</guid>
+      <description>These docs summarize some technologies and respective commands related to Backend and Platform Engineering. Feel free to post a PR to update typos or new interesting commands, or put in an issue if you wish to see a whole new module.</description>
     </item>
     <item>
       <title>Basic Commands</title>
