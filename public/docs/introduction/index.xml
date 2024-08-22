@@ -14,7 +14,7 @@
       <link>http://localhost:1313/docs/introduction/overview/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
       <guid>http://localhost:1313/docs/introduction/overview/</guid>
-      <description>These docs summarize some technologies and respective commands related to Backend and Platform Engineering. Feel free to post a PR to update typos or new interesting commands, or put in an issue if you wish to see a whole new module.</description>
+      <description>These docs summarize some technologies and respective commands related to Backend and Platform Engineering.&#xA;Feel free to post a PR to update typos or new interesting commands, or put in an issue if you wish to see a whole new module.</description>
     </item>
   </channel>
 </rss>

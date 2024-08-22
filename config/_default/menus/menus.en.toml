@@ -41,7 +41,7 @@
 
 [[main]]
   name = "About Me"
-  url = "/aboutme/aboutme/quick-summary/"
+  url = "/about-me/about-me/quick-summary/"
   weight = 5
 
 # [[social]]

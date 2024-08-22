@@ -164,18 +164,6 @@
       </ul>
     </details>
   </li>
-
-  <li>
-    <details>
-      <summary>Reference</summary>
-      <ul class="list-unstyled list-nested">
-
-  <li>
-      <a href="/docs/reference/basic-commands/">Basic Commands</a>
-  </li>
-      </ul>
-    </details>
-  </li>
   </ul>
 </nav>
 
@@ -209,7 +197,7 @@
       
       <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
         <ul class="navbar-nav flex-grow-1"><li class="nav-item">
-                <a class="nav-link" href="http://localhost:1313/aboutme/aboutme/quick-summary/">About Me</a>
+                <a class="nav-link" href="http://localhost:1313/about-me/about-me/quick-summary/">About Me</a>
               </li>
             <li class="nav-item">
                 <a class="nav-link active" href="http://localhost:1313/docs/introduction/overview" aria-current="true">Docs</a>
@@ -339,18 +327,6 @@
       </ul>
     </details>
   </li>
-
-  <li>
-    <details>
-      <summary>Reference</summary>
-      <ul class="list-unstyled list-nested">
-
-  <li>
-      <a href="/docs/reference/basic-commands/">Basic Commands</a>
-  </li>
-      </ul>
-    </details>
-  </li>
   </ul>
 </nav>
 
@@ -366,8 +342,8 @@
     <li><a href="#baseline-commands">Baseline commands</a></li>
     <li><a href="#getting-logs-and-events">Getting logs and events</a></li>
     <li><a href="#creating-secrets">Creating Secrets</a></li>
-    <li><a href="#reading-secrets">Reading secrets:</a></li>
-    <li><a href="#accessing-other-services">Accessing other services:</a></li>
+    <li><a href="#reading-secrets">Reading secrets</a></li>
+    <li><a href="#accessing-other-services">Accessing other services</a></li>
     <li><a href="#going-inside-the-pod">Going inside the pod</a></li>
     <li><a href="#requesting-without-an-ingress">Requesting without an ingress</a></li>
   </ul>
@@ -388,8 +364,8 @@
     <li><a href="#baseline-commands">Baseline commands</a></li>
     <li><a href="#getting-logs-and-events">Getting logs and events</a></li>
     <li><a href="#creating-secrets">Creating Secrets</a></li>
-    <li><a href="#reading-secrets">Reading secrets:</a></li>
-    <li><a href="#accessing-other-services">Accessing other services:</a></li>
+    <li><a href="#reading-secrets">Reading secrets</a></li>
+    <li><a href="#accessing-other-services">Accessing other services</a></li>
     <li><a href="#going-inside-the-pod">Going inside the pod</a></li>
     <li><a href="#requesting-without-an-ingress">Requesting without an ingress</a></li>
   </ul>
@@ -431,12 +407,12 @@
         key: password # or whatever your key is</code></pre>
   </figure>
 </div>
-<h2 id="reading-secrets">Reading secrets:<a href="#reading-secrets" class="anchor" aria-hidden="true">#</a> </h2>
+<h2 id="reading-secrets">Reading secrets<a href="#reading-secrets" class="anchor" aria-hidden="true">#</a> </h2>
 <p><code>kubectl edit secret &lt;secret—name&gt;</code> and you can see the secret value there (but don’t edit it!)</p>
 <p>but it will show you the secret info and the value encoded in base64. To read it back you must do:</p>
 <p><code>kubectl get secret &lt;SECRET_NAME&gt; &quot;--template={{.data.password}}&quot; | base64 --decode</code></p>
 <p>Note that if you do want to edit it like that, you need to convert it to base64 before that.</p>
-<h2 id="accessing-other-services">Accessing other services:<a href="#accessing-other-services" class="anchor" aria-hidden="true">#</a> </h2>
+<h2 id="accessing-other-services">Accessing other services<a href="#accessing-other-services" class="anchor" aria-hidden="true">#</a> </h2>
 <p>From inside the cluster:</p>
 <p><code>curl &lt;service-name&gt;.&lt;namespace-name&gt;:&lt;port&gt;</code></p>
 <p>If the service you are trying to access is in the namespace as your pod currently is, then you can omit the namespace name and just do<br>
@@ -466,24 +442,7 @@
 				</div>
 				<div class="d-flex flex-column">
 					<div class="text-body-secondary">Prev</div>
-					<a href="/docs/introduction/overview/" class="stretched-link text-reset text-decoration-none">Overview</a>
-				</div>
-			</div>
-		</div>
-	<div class="m-2"></div>
-	<div class="card text-end w-100">
-			<div class="card-body d-flex justify-content-end">
-				<div class="d-flex flex-column">
-					<div class="text-body-secondary">Next</div>
-					<a href="/docs/reference/basic-commands/" class="stretched-link text-reset text-decoration-none">Basic Commands</a>
-				</div>
-				<div class="d-flex flex-column justify-content-center">
-					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-						<path d="M5 12l14 0"></path>
-						<path d="M13 18l6 -6"></path>
-						<path d="M13 6l6 6"></path>
-					</svg>
+					<a href="/docs/introduction/overview/" class="stretched-link text-reset text-decoration-none">Introduction - Overview</a>
 				</div>
 			</div>
 		</div>
