@@ -7,20 +7,20 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
-    <lastBuildDate>Tue, 27 Feb 2024 09:30:56 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 07 Sep 2023 17:19:07 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quick Summary</title>
-      <link>http://localhost:1313/aboutme/aboutme/quick-summary/</link>
+      <link>http://localhost:1313/about-me/about-me/quick-summary/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/aboutme/aboutme/quick-summary/</guid>
+      <guid>http://localhost:1313/about-me/about-me/quick-summary/</guid>
       <description>Hello and welcome! 👋&#xA;I am Teresa Alves, a Software Engineer from Portugal 🇵🇹 I have a background in Control and Automation (aka Math and Robots) and I have professional experience as a backend, platform and systems engineer.</description>
     </item>
     <item>
       <title>Dogs</title>
-      <link>http://localhost:1313/aboutme/aboutme/dogs/</link>
+      <link>http://localhost:1313/about-me/about-me/dogs/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/aboutme/aboutme/dogs/</guid>
+      <guid>http://localhost:1313/about-me/about-me/dogs/</guid>
       <description>This is the best dog, Ellie:&#xA;Right now, she is my only pup. Maybe when she gets less crazy I can get another one.</description>
     </item>
     <item>
@@ -35,7 +35,7 @@
       <link>http://localhost:1313/docs/introduction/overview/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
       <guid>http://localhost:1313/docs/introduction/overview/</guid>
-      <description>These docs summarize some technologies and respective commands related to Backend and Platform Engineering. Feel free to post a PR to update typos or new interesting commands, or put in an issue if you wish to see a whole new module.</description>
+      <description>These docs summarize some technologies and respective commands related to Backend and Platform Engineering.&#xA;Feel free to post a PR to update typos or new interesting commands, or put in an issue if you wish to see a whole new module.</description>
     </item>
     <item>
       <title>Basic Commands</title>
@@ -46,31 +46,10 @@
     </item>
     <item>
       <title>Public Speaking Events</title>
-      <link>http://localhost:1313/aboutme/events/public-speaking-events/</link>
+      <link>http://localhost:1313/about-me/events/public-speaking-events/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/aboutme/events/public-speaking-events/</guid>
+      <guid>http://localhost:1313/about-me/events/public-speaking-events/</guid>
       <description>Diversity and Inclusion in the tech world 27/06/2024 I was a guest in an event for Career Management in Tech where I spoke about the importance of diversity and inclusion in the workplace, as a representative of As Raparigas do Código.</description>
-    </item>
-    <item>
-      <title>Basic Commands</title>
-      <link>http://localhost:1313/docs/reference/basic-commands/</link>
-      <pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate>
-      <guid>http://localhost:1313/docs/reference/basic-commands/</guid>
-      <description>Reference pages are ideal for outlining how things work in terse and clear terms. Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.</description>
-    </item>
-    <item>
-      <title>Resources</title>
-      <link>http://localhost:1313/aboutme/resources/</link>
-      <pubDate>Tue, 27 Feb 2024 09:30:56 +0100</pubDate>
-      <guid>http://localhost:1313/aboutme/resources/</guid>
-      <description>Link to valuable, relevant resources.</description>
-    </item>
-    <item>
-      <title>Resources</title>
-      <link>http://localhost:1313/docs/resources/</link>
-      <pubDate>Tue, 27 Feb 2024 09:30:56 +0100</pubDate>
-      <guid>http://localhost:1313/docs/resources/</guid>
-      <description>Link to valuable, relevant resources.</description>
     </item>
     <item>
       <title>Privacy Policy</title>

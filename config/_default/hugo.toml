@@ -59,7 +59,7 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
 [permalinks]
   blog = "/blog/:slug/"
   docs = "/docs/:sections[1:]/:slug/"
-  aboutme = "/aboutme/:sections[1:]/:slug/"
+  about-me = "/about-me/:sections[1:]/:slug/"
 # docs = "/docs/1.0/:sections[1:]/:slug/"
 
 [minify.tdewolff.html]

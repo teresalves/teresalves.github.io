@@ -54,7 +54,7 @@
     ],
     "classes": [
       "DocSearch-Label",
-      "aboutme",
+      "about-me",
       "active",
       "anchor",
       "bg-dots",
@@ -241,7 +241,6 @@
       "accessing-other-services",
       "baseline-commands",
       "buttonColorMode",
-      "can-i-contribute",
       "creating-secrets",
       "diversity-and-inclusion-in-the-tech-world",
       "doks-docs-nav",
@@ -263,7 +262,8 @@
       "searchToggleDesktop",
       "searchToggleMobile",
       "socialMenu",
-      "toc"
+      "toc",
+      "want-to-contribute"
     ]
   }
 }
