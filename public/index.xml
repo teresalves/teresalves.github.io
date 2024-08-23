@@ -24,18 +24,32 @@
       <description>This is the best dog, Ellie:&#xA;Right now, she is my only pup. Maybe when she gets less crazy I can get another one.</description>
     </item>
     <item>
-      <title>feat: initial setup with content</title>
-      <link>http://localhost:1313/changelog/initial-setup/</link>
-      <pubDate>Tue, 20 Aug 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/changelog/initial-setup/</guid>
-      <description>Just a first post, an unofficial launch</description>
-    </item>
-    <item>
       <title>Overview</title>
       <link>http://localhost:1313/docs/introduction/overview/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
       <guid>http://localhost:1313/docs/introduction/overview/</guid>
       <description>These docs summarize some technologies and respective commands related to Backend and Platform Engineering.&#xA;Feel free to post a PR to update typos or new interesting commands, or put in an issue if you wish to see a whole new module.</description>
+    </item>
+    <item>
+      <title>Basic Commands</title>
+      <link>http://localhost:1313/docs/docker/basic-commands/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/docker/basic-commands/</guid>
+      <description>docker --version: Displays the installed version of Docker.&#xA;docker pull &amp;lt;image&amp;gt;: Downloads a Docker image from a registry.&#xA;docker images: Lists all the Docker images on the local system.</description>
+    </item>
+    <item>
+      <title>What is a Dockerfile</title>
+      <link>http://localhost:1313/docs/docker/what-is-a-dockerfile/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/docker/what-is-a-dockerfile/</guid>
+      <description>WIP</description>
+    </item>
+    <item>
+      <title>Docker Compose</title>
+      <link>http://localhost:1313/docs/docker/docker-compose/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/docs/docker/docker-compose/</guid>
+      <description>WIP</description>
     </item>
     <item>
       <title>Basic Commands</title>
@@ -50,6 +64,13 @@
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
       <guid>http://localhost:1313/about-me/events/public-speaking-events/</guid>
       <description>Diversity and Inclusion in the tech world 27/06/2024 I was a guest in an event for Career Management in Tech where I spoke about the importance of diversity and inclusion in the workplace, as a representative of As Raparigas do Código.</description>
+    </item>
+    <item>
+      <title>feat: initial setup with content</title>
+      <link>http://localhost:1313/changelog/initial-setup/</link>
+      <pubDate>Tue, 20 Aug 2024 16:27:22 +0200</pubDate>
+      <guid>http://localhost:1313/changelog/initial-setup/</guid>
+      <description>Just a first post, an unofficial launch</description>
     </item>
     <item>
       <title>Privacy Policy</title>
