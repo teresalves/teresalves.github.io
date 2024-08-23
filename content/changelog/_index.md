@@ -1,16 +1,17 @@
 ---
-title: "Blog"
+title: "Change log"
 description: ""
 summary: ""
 date: 2023-09-07T16:21:44+02:00
 lastmod: 2023-09-07T16:21:44+02:00
 draft: false
-weight: 50
+weight: 100
 categories: []
 tags: []
 contributors: []
 pinned: false
 homepage: false
+type: blog
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
