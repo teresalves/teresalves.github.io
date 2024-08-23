@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
-    <lastBuildDate>Thu, 07 Sep 2023 17:19:07 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 07 Sep 2023 16:27:22 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quick Summary</title>
@@ -66,18 +66,18 @@
       <description>Diversity and Inclusion in the tech world 27/06/2024 I was a guest in an event for Career Management in Tech where I spoke about the importance of diversity and inclusion in the workplace, as a representative of As Raparigas do Código.</description>
     </item>
     <item>
+      <title>feat: add basic docker commands</title>
+      <link>http://localhost:1313/changelog/adding-docker/</link>
+      <pubDate>Thu, 22 Aug 2024 16:27:22 +0200</pubDate>
+      <guid>http://localhost:1313/changelog/adding-docker/</guid>
+      <description>Adding a baseline for docker usage</description>
+    </item>
+    <item>
       <title>feat: initial setup with content</title>
       <link>http://localhost:1313/changelog/initial-setup/</link>
       <pubDate>Tue, 20 Aug 2024 16:27:22 +0200</pubDate>
       <guid>http://localhost:1313/changelog/initial-setup/</guid>
       <description>Just a first post, an unofficial launch</description>
-    </item>
-    <item>
-      <title>Privacy Policy</title>
-      <link>http://localhost:1313/privacy/</link>
-      <pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate>
-      <guid>http://localhost:1313/privacy/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

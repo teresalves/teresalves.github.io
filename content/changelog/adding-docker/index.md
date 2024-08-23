@@ -2,10 +2,10 @@
 title: "feat: add basic docker commands"
 description: "Adding a baseline for docker usage"
 summary: "Adding a baseline for docker usage"
-date: 2024-08-23T16:27:22+02:00
+date: 2024-08-22T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false
-weight: 39999
+weight: 9999
 categories: []
 tags: []
 contributors: []
