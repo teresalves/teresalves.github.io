@@ -5,7 +5,7 @@ summary: "Just a first post, an unofficial launch"
 date: 2024-08-20T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false
-weight: 100
+weight: 40000
 categories: []
 tags: []
 contributors: []
