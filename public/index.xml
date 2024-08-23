@@ -24,11 +24,11 @@
       <description>This is the best dog, Ellie:&#xA;Right now, she is my only pup. Maybe when she gets less crazy I can get another one.</description>
     </item>
     <item>
-      <title>Example Post</title>
-      <link>http://localhost:1313/blog/example-post/</link>
-      <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/example-post/</guid>
-      <description>You can use blog posts for announcing product updates and features.</description>
+      <title>feat: initial setup with content</title>
+      <link>http://localhost:1313/changelog/initial-setup/</link>
+      <pubDate>Tue, 20 Aug 2024 16:27:22 +0200</pubDate>
+      <guid>http://localhost:1313/changelog/initial-setup/</guid>
+      <description>Just a first post, an unofficial launch</description>
     </item>
     <item>
       <title>Overview</title>

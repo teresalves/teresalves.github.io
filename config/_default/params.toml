@@ -134,5 +134,5 @@ mainSections = ["docs", "about-me"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections
-    blogPosting = ["blog"] # BlogPosting sections
+    blogPosting = ["blog", "changelog"] # BlogPosting sections
     product = [] # Product sections
