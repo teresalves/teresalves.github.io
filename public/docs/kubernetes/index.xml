@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kubernetes on Teresa Alves</title>
-    <link>http://localhost:1313/docs/kubernetes/</link>
+    <link>http://localhost:59077/docs/kubernetes/</link>
     <description>Recent content in Kubernetes on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:59077/docs/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Commands</title>
-      <link>http://localhost:1313/docs/kubernetes/basic-commands/</link>
+      <link>http://localhost:59077/docs/kubernetes/basic-commands/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/kubernetes/basic-commands/</guid>
+      <guid>http://localhost:59077/docs/kubernetes/basic-commands/</guid>
       <description>Baseline commands kubectl get pods - check if the pods are starting correctly. You can add | grep -c &amp;lt;deployment-name&amp;gt; to count how many pods you have at a current time.</description>
     </item>
   </channel>

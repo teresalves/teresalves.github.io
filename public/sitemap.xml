@@ -2,115 +2,116 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about-me/about-me/quick-summary/</loc>
+    <loc>http://localhost:59077/about-me/about-me/quick-summary/</loc>
     <lastmod>2023-09-07T16:04:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/about-me/about-me/dogs/</loc>
+    <loc>http://localhost:59077/about-me/about-me/dogs/</loc>
     <lastmod>2023-09-07T16:04:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/changelog/</loc>
+    <loc>http://localhost:59077/blog/</loc>
     <lastmod>2023-09-07T16:21:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/introduction/</loc>
+    <loc>http://localhost:59077/docs/introduction/</loc>
     <lastmod>2023-09-07T16:06:50+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/introduction/overview/</loc>
+    <loc>http://localhost:59077/docs/introduction/overview/</loc>
     <lastmod>2023-09-07T16:04:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/docker/</loc>
+    <loc>http://localhost:59077/docs/docker/</loc>
     <lastmod>2023-09-07T16:06:50+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/docker/basic-commands/</loc>
+    <loc>http://localhost:59077/docs/docker/basic-commands/</loc>
     <lastmod>2023-09-07T16:04:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/docker/what-is-a-dockerfile/</loc>
+    <loc>http://localhost:59077/docs/docker/what-is-a-dockerfile/</loc>
     <lastmod>2023-09-07T16:04:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/docker/docker-compose/</loc>
+    <loc>http://localhost:59077/docs/docker/docker-compose/</loc>
     <lastmod>2023-09-07T16:04:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/about-me/about-me/</loc>
+    <loc>http://localhost:59077/about-me/about-me/</loc>
     <lastmod>2023-09-07T16:06:50+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/about-me/events/</loc>
+    <loc>http://localhost:59077/about-me/events/</loc>
     <lastmod>2023-09-07T16:06:50+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/kubernetes/</loc>
+    <loc>http://localhost:59077/docs/kubernetes/</loc>
     <lastmod>2023-09-07T16:06:50+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/kubernetes/basic-commands/</loc>
+    <loc>http://localhost:59077/docs/kubernetes/basic-commands/</loc>
     <lastmod>2023-09-07T16:04:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/about-me/events/public-speaking-events/</loc>
+    <loc>http://localhost:59077/about-me/events/public-speaking-events/</loc>
     <lastmod>2023-09-07T16:04:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/about-me/</loc>
+    <loc>http://localhost:59077/about-me/</loc>
     <lastmod>2023-09-07T16:12:03+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
+    <loc>http://localhost:59077/docs/</loc>
     <lastmod>2023-09-07T16:12:03+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/changelog/adding-docker/</loc>
-    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <loc>http://localhost:59077/blog/greetings/</loc>
+    <lastmod>2023-09-16T16:27:22+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/changelog/initial-setup/</loc>
-    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <loc>http://localhost:59077/categories/</loc>
+    <lastmod>2023-09-16T16:27:22+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/privacy/</loc>
+    <loc>http://localhost:59077/categories/personal/</loc>
+    <lastmod>2023-09-16T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:59077/privacy/</loc>
     <lastmod>2023-09-07T17:19:07+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:59077/</loc>
     <lastmod>2023-09-07T16:33:54+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:59077/contributors/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/contributors/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:59077/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

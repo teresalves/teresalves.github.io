@@ -36,8 +36,8 @@
 
 
 [[main]]
-  name = "Changelog"
-  url = "/changelog/"
+  name = "Blog"
+  url = "/blog/"
   weight = 30
 
 [[main]]

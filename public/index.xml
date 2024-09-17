@@ -2,82 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teresa Alves</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:59077/</link>
     <description>Recent content on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
-    <lastBuildDate>Thu, 07 Sep 2023 16:27:22 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Sep 2023 16:27:22 +0200</lastBuildDate>
+    <atom:link href="http://localhost:59077/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quick Summary</title>
-      <link>http://localhost:1313/about-me/about-me/quick-summary/</link>
+      <link>http://localhost:59077/about-me/about-me/quick-summary/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/about-me/about-me/quick-summary/</guid>
+      <guid>http://localhost:59077/about-me/about-me/quick-summary/</guid>
       <description>Hello and welcome! 👋&#xA;I am Teresa Alves, a Software Engineer from Portugal 🇵🇹 I have a background in Control and Automation (aka Math and Robots) and I have professional experience as a backend, platform and systems engineer.</description>
     </item>
     <item>
       <title>Dogs</title>
-      <link>http://localhost:1313/about-me/about-me/dogs/</link>
+      <link>http://localhost:59077/about-me/about-me/dogs/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/about-me/about-me/dogs/</guid>
+      <guid>http://localhost:59077/about-me/about-me/dogs/</guid>
       <description>This is the best dog, Ellie:&#xA;Right now, she is my only pup. Maybe when she gets less crazy I can get another one.</description>
     </item>
     <item>
       <title>Overview</title>
-      <link>http://localhost:1313/docs/introduction/overview/</link>
+      <link>http://localhost:59077/docs/introduction/overview/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/introduction/overview/</guid>
+      <guid>http://localhost:59077/docs/introduction/overview/</guid>
       <description>These docs summarize some technologies and respective commands related to Backend and Platform Engineering.&#xA;Feel free to post a PR to update typos or new interesting commands, or put in an issue if you wish to see a whole new module.</description>
     </item>
     <item>
       <title>Basic Commands</title>
-      <link>http://localhost:1313/docs/docker/basic-commands/</link>
+      <link>http://localhost:59077/docs/docker/basic-commands/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/docker/basic-commands/</guid>
+      <guid>http://localhost:59077/docs/docker/basic-commands/</guid>
       <description>docker --version: Displays the installed version of Docker.&#xA;docker pull &amp;lt;image&amp;gt;: Downloads a Docker image from a registry.&#xA;docker images: Lists all the Docker images on the local system.</description>
     </item>
     <item>
       <title>What is a Dockerfile</title>
-      <link>http://localhost:1313/docs/docker/what-is-a-dockerfile/</link>
+      <link>http://localhost:59077/docs/docker/what-is-a-dockerfile/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/docker/what-is-a-dockerfile/</guid>
+      <guid>http://localhost:59077/docs/docker/what-is-a-dockerfile/</guid>
       <description>WIP</description>
     </item>
     <item>
       <title>Docker Compose</title>
-      <link>http://localhost:1313/docs/docker/docker-compose/</link>
+      <link>http://localhost:59077/docs/docker/docker-compose/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/docker/docker-compose/</guid>
+      <guid>http://localhost:59077/docs/docker/docker-compose/</guid>
       <description>WIP</description>
     </item>
     <item>
       <title>Basic Commands</title>
-      <link>http://localhost:1313/docs/kubernetes/basic-commands/</link>
+      <link>http://localhost:59077/docs/kubernetes/basic-commands/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/kubernetes/basic-commands/</guid>
+      <guid>http://localhost:59077/docs/kubernetes/basic-commands/</guid>
       <description>Baseline commands kubectl get pods - check if the pods are starting correctly. You can add | grep -c &amp;lt;deployment-name&amp;gt; to count how many pods you have at a current time.</description>
     </item>
     <item>
       <title>Public Speaking Events</title>
-      <link>http://localhost:1313/about-me/events/public-speaking-events/</link>
+      <link>http://localhost:59077/about-me/events/public-speaking-events/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/about-me/events/public-speaking-events/</guid>
+      <guid>http://localhost:59077/about-me/events/public-speaking-events/</guid>
       <description>Diversity and Inclusion in the tech world 27/06/2024 I was a guest in an event for Career Management in Tech where I spoke about the importance of diversity and inclusion in the workplace, as a representative of As Raparigas do Código.</description>
     </item>
     <item>
-      <title>feat: add basic docker commands</title>
-      <link>http://localhost:1313/changelog/adding-docker/</link>
-      <pubDate>Thu, 22 Aug 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/changelog/adding-docker/</guid>
-      <description>Adding a baseline for docker usage</description>
+      <title>Greetings</title>
+      <link>http://localhost:59077/blog/greetings/</link>
+      <pubDate>Mon, 16 Sep 2024 16:27:22 +0200</pubDate>
+      <guid>http://localhost:59077/blog/greetings/</guid>
+      <description>Welcome to my website</description>
     </item>
     <item>
-      <title>feat: initial setup with content</title>
-      <link>http://localhost:1313/changelog/initial-setup/</link>
-      <pubDate>Tue, 20 Aug 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/changelog/initial-setup/</guid>
-      <description>Just a first post, an unofficial launch</description>
+      <title>Privacy Policy</title>
+      <link>http://localhost:59077/privacy/</link>
+      <pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate>
+      <guid>http://localhost:59077/privacy/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

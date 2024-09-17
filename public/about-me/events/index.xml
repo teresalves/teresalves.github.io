@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on Teresa Alves</title>
-    <link>http://localhost:1313/about-me/events/</link>
+    <link>http://localhost:59077/about-me/events/</link>
     <description>Recent content in Events on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/about-me/events/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:59077/about-me/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Public Speaking Events</title>
-      <link>http://localhost:1313/about-me/events/public-speaking-events/</link>
+      <link>http://localhost:59077/about-me/events/public-speaking-events/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/about-me/events/public-speaking-events/</guid>
+      <guid>http://localhost:59077/about-me/events/public-speaking-events/</guid>
       <description>Diversity and Inclusion in the tech world 27/06/2024 I was a guest in an event for Career Management in Tech where I spoke about the importance of diversity and inclusion in the workplace, as a representative of As Raparigas do Código.</description>
     </item>
   </channel>
