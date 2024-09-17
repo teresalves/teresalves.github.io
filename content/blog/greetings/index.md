@@ -20,4 +20,5 @@ seo:
 ---
 
 Hey there!
+
 I'll be posting some things that interest me. Mostly investigation of technical topics that I want to save to check again. And probably dogs. And other friend shaped animals.
