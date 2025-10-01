@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Teresa Alves</title><link>/nl/</link><description>Recent content on Teresa Alves</description><generator>Hugo</generator><language>nl</language><atom:link href="/nl/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teresa Alves</title>
+    <link>http://localhost:1313/nl/</link>
+    <description>Recent content on Teresa Alves</description>
+    <generator>Hugo</generator>
+    <language>nl</language>
+    <atom:link href="http://localhost:1313/nl/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

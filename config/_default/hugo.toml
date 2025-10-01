@@ -1,6 +1,5 @@
 title = "Teresa Alves"
 baseurl = "http://localhost/"
-canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
@@ -9,9 +8,6 @@ enableGitInfo = false
 enableRobotsTXT = true
 languageCode = "en-US"
 rssLimit = 10
-
-[pagination]
-  pagerSize = 10
 summarylength = 20 # 70 (default)
 
 # Multilingual
@@ -19,7 +15,7 @@ defaultContentLanguage = "en"
 disableLanguages = ["de", "nl"]
 defaultContentLanguageInSubdir = false
 
-copyRight = "Copyright (c) 2020-2024 Hyas"
+copyRight = "Copyright (c) 2020-2024 Thulite"
 
 [build.buildStats]
   enable = true
@@ -59,12 +55,15 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
   tag = "tags"
 
 [permalinks]
+  blog = "/blog/:slug/"
   docs = "/docs/:sections[1:]/:slug/"
   about-me = "/about-me/:sections[1:]/:slug/"
-# docs = "/docs/1.0/:sections[1:]/:slug/"
 
 [minify.tdewolff.html]
   keepWhitespace = false
+
+[pagination]
+  pagerSize = 10
 
 [related]
   threshold = 80
