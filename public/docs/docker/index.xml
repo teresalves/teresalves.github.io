@@ -1,34 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Docker on Teresa Alves</title>
-    <link>http://localhost:63113/docs/docker/</link>
-    <description>Recent content in Docker on Teresa Alves</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Copyright (c) 2020-2024 Hyas</copyright>
-    <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="http://localhost:63113/docs/docker/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Basic Commands</title>
-      <link>http://localhost:63113/docs/docker/basic-commands/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:63113/docs/docker/basic-commands/</guid>
-      <description>docker --version: Displays the installed version of Docker.&#xA;docker pull &amp;lt;image&amp;gt;: Downloads a Docker image from a registry.&#xA;docker images: Lists all the Docker images on the local system.</description>
-    </item>
-    <item>
-      <title>What is a Dockerfile</title>
-      <link>http://localhost:63113/docs/docker/what-is-a-dockerfile/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:63113/docs/docker/what-is-a-dockerfile/</guid>
-      <description>WIP</description>
-    </item>
-    <item>
-      <title>Docker Compose</title>
-      <link>http://localhost:63113/docs/docker/docker-compose/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:63113/docs/docker/docker-compose/</guid>
-      <description>WIP</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on Teresa Alves</title><link>/docs/docker/</link><description>Recent content in Docker on Teresa Alves</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate><atom:link href="/docs/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>Basic Commands</title><link>/docs/docker/basic-commands/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/docker/basic-commands/</guid><description>&lt;p>&lt;code>docker --version&lt;/code>: Displays the installed version of Docker.&lt;/p>
+&lt;p>&lt;code>docker pull &amp;lt;image&amp;gt;&lt;/code>: Downloads a Docker image from a registry.&lt;/p>
+&lt;p>&lt;code>docker images&lt;/code>: Lists all the Docker images on the local system.&lt;/p>
+&lt;p>&lt;code>docker run &amp;lt;image&amp;gt;&lt;/code>: Creates and starts a new container from an image.&lt;/p>
+&lt;p>&lt;code>docker ps&lt;/code>: Lists currently running containers.&lt;/p>
+&lt;p>&lt;code>docker ps -a&lt;/code>: Lists all containers, including stopped ones.&lt;/p>
+&lt;p>&lt;code>docker stop &amp;lt;container&amp;gt;&lt;/code>: Stops a running container.&lt;/p>
+&lt;p>&lt;code>docker rm &amp;lt;container&amp;gt;&lt;/code>: Removes a stopped container.&lt;/p></description></item><item><title>What is a Dockerfile</title><link>/docs/docker/what-is-a-dockerfile/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/docker/what-is-a-dockerfile/</guid><description>&lt;p>WIP&lt;/p></description></item><item><title>Docker Compose</title><link>/docs/docker/docker-compose/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/docker/docker-compose/</guid><description>&lt;p>WIP&lt;/p></description></item></channel></rss>

@@ -1,83 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Teresa Alves</title>
-    <link>http://localhost:63113/</link>
-    <description>Recent content on Teresa Alves</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Copyright (c) 2020-2024 Hyas</copyright>
-    <lastBuildDate>Sat, 16 Sep 2023 16:27:22 +0200</lastBuildDate>
-    <atom:link href="http://localhost:63113/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Quick Summary</title>
-      <link>http://localhost:63113/about-me/about-me/quick-summary/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:63113/about-me/about-me/quick-summary/</guid>
-      <description>Hello and welcome! 👋&#xA;I am Teresa Alves, a Software Engineer from Portugal 🇵🇹 I have a background in Control and Automation (aka Math and Robots) and I have professional experience as a backend, platform and systems engineer.</description>
-    </item>
-    <item>
-      <title>Dogs</title>
-      <link>http://localhost:63113/about-me/about-me/dogs/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:63113/about-me/about-me/dogs/</guid>
-      <description>This is the best dog, Ellie:&#xA;Right now, she is my only pup. Maybe when she gets less crazy I can get another one.</description>
-    </item>
-    <item>
-      <title>Overview</title>
-      <link>http://localhost:63113/docs/introduction/overview/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:63113/docs/introduction/overview/</guid>
-      <description>These docs summarize some technologies and respective commands related to Backend and Platform Engineering.&#xA;Feel free to post a PR to update typos or new interesting commands, or put in an issue if you wish to see a whole new module.</description>
-    </item>
-    <item>
-      <title>Basic Commands</title>
-      <link>http://localhost:63113/docs/docker/basic-commands/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:63113/docs/docker/basic-commands/</guid>
-      <description>docker --version: Displays the installed version of Docker.&#xA;docker pull &amp;lt;image&amp;gt;: Downloads a Docker image from a registry.&#xA;docker images: Lists all the Docker images on the local system.</description>
-    </item>
-    <item>
-      <title>What is a Dockerfile</title>
-      <link>http://localhost:63113/docs/docker/what-is-a-dockerfile/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:63113/docs/docker/what-is-a-dockerfile/</guid>
-      <description>WIP</description>
-    </item>
-    <item>
-      <title>Docker Compose</title>
-      <link>http://localhost:63113/docs/docker/docker-compose/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:63113/docs/docker/docker-compose/</guid>
-      <description>WIP</description>
-    </item>
-    <item>
-      <title>Basic Commands</title>
-      <link>http://localhost:63113/docs/kubernetes/basic-commands/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:63113/docs/kubernetes/basic-commands/</guid>
-      <description>Baseline commands kubectl get pods - check if the pods are starting correctly. You can add | grep -c &amp;lt;deployment-name&amp;gt; to count how many pods you have at a current time.</description>
-    </item>
-    <item>
-      <title>Public Speaking Events</title>
-      <link>http://localhost:63113/about-me/events/public-speaking-events/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:63113/about-me/events/public-speaking-events/</guid>
-      <description>Diversity and Inclusion in the tech world 27/06/2024 I was a guest in an event for Career Management in Tech where I spoke about the importance of diversity and inclusion in the workplace, as a representative of As Raparigas do Código.</description>
-    </item>
-    <item>
-      <title>Greetings</title>
-      <link>http://localhost:63113/blog/greetings/</link>
-      <pubDate>Mon, 16 Sep 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:63113/blog/greetings/</guid>
-      <description>Welcome to my website</description>
-    </item>
-    <item>
-      <title>Privacy Policy</title>
-      <link>http://localhost:63113/privacy/</link>
-      <pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate>
-      <guid>http://localhost:63113/privacy/</guid>
-      <description></description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Teresa Alves</title><link>/</link><description>Recent content on Teresa Alves</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 16 Sep 2023 16:27:22 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Quick Summary</title><link>/about-me/about-me/quick-summary/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/about-me/about-me/quick-summary/</guid><description>&lt;p>Hello and welcome! 👋&lt;/p>
+&lt;p>I am Teresa Alves, a Software Engineer from Portugal 🇵🇹
+I have a background in Control and Automation (aka Math and Robots) and I have professional experience as a backend, platform and systems engineer.&lt;/p>
+&lt;p>I am also a volunteer for &lt;a href="https://raparigasdocodigo.pt/">As Raparigas do Código&lt;/a>, a volunteer organization focused including women in the tech world, and to get young childrens interested in technology.&lt;/p>
+&lt;p>This website will share my quick guides to certain technologies, that will help me not forget things, and might help you learn them.&lt;/p></description></item><item><title>Dogs</title><link>/about-me/about-me/dogs/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/about-me/about-me/dogs/</guid><description>&lt;p>This is the best dog, Ellie:&lt;/p>
+&lt;p align="center">
+ &lt;img src=/about-me/about-me/ellie.png width=300 height=500/>
+ &lt;img src=/about-me/about-me/ellie2.png width=300 height=500/>
+&lt;/p>
+&lt;p>Right now, she is my only pup. Maybe when she gets less crazy I can get another one.&lt;/p>
+&lt;p>I gained some knowledge of anxious dogs and how to deal with the anxiety caused by anxious dogs, so feel free to ask me about this too. I can also recommend good trainers and pet stores. And kennels if you&amp;rsquo;re looking to adopt or contribute 🐕&lt;/p></description></item><item><title>Overview</title><link>/docs/introduction/overview/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/introduction/overview/</guid><description>&lt;p>These docs summarize some technologies and respective commands related to Backend and Platform Engineering.&lt;/p>
+&lt;p>Feel free to post a PR to update typos or new interesting commands, or put in an issue if you wish to see a whole new module.&lt;/p>
+&lt;p>The search bar works too, if you&amp;rsquo;re looking for something in particular 🔍&lt;/p></description></item><item><title>Basic Commands</title><link>/docs/docker/basic-commands/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/docker/basic-commands/</guid><description>&lt;p>&lt;code>docker --version&lt;/code>: Displays the installed version of Docker.&lt;/p>
+&lt;p>&lt;code>docker pull &amp;lt;image&amp;gt;&lt;/code>: Downloads a Docker image from a registry.&lt;/p>
+&lt;p>&lt;code>docker images&lt;/code>: Lists all the Docker images on the local system.&lt;/p>
+&lt;p>&lt;code>docker run &amp;lt;image&amp;gt;&lt;/code>: Creates and starts a new container from an image.&lt;/p>
+&lt;p>&lt;code>docker ps&lt;/code>: Lists currently running containers.&lt;/p>
+&lt;p>&lt;code>docker ps -a&lt;/code>: Lists all containers, including stopped ones.&lt;/p>
+&lt;p>&lt;code>docker stop &amp;lt;container&amp;gt;&lt;/code>: Stops a running container.&lt;/p>
+&lt;p>&lt;code>docker rm &amp;lt;container&amp;gt;&lt;/code>: Removes a stopped container.&lt;/p></description></item><item><title>What is a Dockerfile</title><link>/docs/docker/what-is-a-dockerfile/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/docker/what-is-a-dockerfile/</guid><description>&lt;p>WIP&lt;/p></description></item><item><title>Docker Compose</title><link>/docs/docker/docker-compose/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/docker/docker-compose/</guid><description>&lt;p>WIP&lt;/p></description></item><item><title>Basic Commands</title><link>/docs/kubernetes/basic-commands/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/kubernetes/basic-commands/</guid><description>&lt;h2 id="baseline-commands">Baseline commands&lt;/h2>
+&lt;p>&lt;code>kubectl get pods&lt;/code> - check if the pods are starting correctly. You can add &lt;code>| grep -c &amp;lt;deployment-name&amp;gt;&lt;/code> to count how many pods you have at a current time. You can also filter by label: &lt;br>
+&lt;code>kubectl get pods -l 'labelname=labelvalue'&lt;/code>&lt;/p>
+&lt;p>&lt;code>kubectl get deploy -o wide&lt;/code> - tells you which version it is getting from the repo, so you can be sure that you are deploying to the correct one. You can also check how many replicas are updated.&lt;/p></description></item><item><title>Public Speaking Events</title><link>/about-me/events/public-speaking-events/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/about-me/events/public-speaking-events/</guid><description>&lt;h3 id="diversity-and-inclusion-in-the-tech-world">Diversity and Inclusion in the tech world&lt;/h3>
+&lt;h6 id="27062024">27/06/2024&lt;/h6>
+&lt;p>I was a guest in an event for Career Management in Tech where I spoke about the importance of diversity and inclusion in the workplace, as a representative of &lt;a href="https://raparigasdocodigo.pt/">As Raparigas do Código&lt;/a>.&lt;/p>
+&lt;p>I believe that diversity is important for innovation and to achieve the best solutions. However, we do not currently have enough women in tech to have a 50/50 distribution of men and women in these roles. Because of that, we strive to have more girls interested in the area and we want to make sure that the women (and the other tech minorities) that are already in here feel included and have their voices heard. Being empathetic, respectful and inclusive to your coworkers is much more important than hitting quotas. This last part will come eventually, if the overall environment is pleasant and accepting.&lt;/p></description></item><item><title>Greetings</title><link>/blog/greetings/</link><pubDate>Mon, 16 Sep 2024 16:27:22 +0200</pubDate><guid>/blog/greetings/</guid><description>Welcome to my website</description></item><item><title>Privacy Policy</title><link>/privacy/</link><pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate><guid>/privacy/</guid><description/></item></channel></rss>
