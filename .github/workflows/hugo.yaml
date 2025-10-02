@@ -79,4 +79,4 @@ jobs:
       - name: Publish to Pages
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: wrangler pages publish ./public --project-name "<EXISTING_PROJECT_NAME>" --branch main
+        run: wrangler pages deploy ./public --project-name "techteresa" --branch main
