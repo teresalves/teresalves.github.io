@@ -1,7 +1,19 @@
 // Put your custom SCSS code here
 
-// Fix blur-up lazyload causing trailing on Cloudflare Pages
+// Prevent flickering on image load
 .blur-up {
-  filter: none !important;
-  transition: none !important;
+  opacity: 0;
+  transition: opacity 200ms ease-in;
+}
+
+.blur-up.lazyloading,
+.blur-up.lazyloaded {
+  opacity: 1;
+}
+
+// Ensure smooth rendering
+picture img {
+  display: block;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
