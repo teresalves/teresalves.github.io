@@ -1,3 +1,4 @@
 # Configuration for Cloudflare Pages deployment
+baseurl = "https://techteresa.com/"
 canonifyURLs = true
 relativeURLs = false
