@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Teresa Alves</title>
-    <link>/docs/docker/</link>
+    <link>http://localhost:1313/docs/docker/</link>
     <description>Recent content in Docker on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Thulite</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="/docs/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/docs/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Commands</title>
-      <link>/docs/docker/basic-commands/</link>
+      <link>http://localhost:1313/docs/docker/basic-commands/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>/docs/docker/basic-commands/</guid>
+      <guid>http://localhost:1313/docs/docker/basic-commands/</guid>
       <description>&lt;p&gt;&lt;code&gt;docker --version&lt;/code&gt;: Displays the installed version of Docker.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;docker pull &amp;lt;image&amp;gt;&lt;/code&gt;: Downloads a Docker image from a registry.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;docker images&lt;/code&gt;: Lists all the Docker images on the local system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is a Dockerfile</title>
-      <link>/docs/docker/what-is-a-dockerfile/</link>
+      <link>http://localhost:1313/docs/docker/what-is-a-dockerfile/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>/docs/docker/what-is-a-dockerfile/</guid>
+      <guid>http://localhost:1313/docs/docker/what-is-a-dockerfile/</guid>
       <description>&lt;p&gt;WIP&lt;/p&gt;</description>
     </item>
     <item>
       <title>Docker Compose</title>
-      <link>/docs/docker/docker-compose/</link>
+      <link>http://localhost:1313/docs/docker/docker-compose/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>/docs/docker/docker-compose/</guid>
+      <guid>http://localhost:1313/docs/docker/docker-compose/</guid>
       <description>&lt;p&gt;WIP&lt;/p&gt;</description>
     </item>
   </channel>
