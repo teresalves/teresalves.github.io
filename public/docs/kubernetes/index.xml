@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kubernetes on Teresa Alves</title>
-    <link>http://localhost:1313/docs/kubernetes/</link>
+    <link>https://techteresa.pages.dev/docs/kubernetes/</link>
     <description>Recent content in Kubernetes on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Thulite</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techteresa.pages.dev/docs/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Commands</title>
-      <link>http://localhost:1313/docs/kubernetes/basic-commands/</link>
+      <link>https://techteresa.pages.dev/docs/kubernetes/basic-commands/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/kubernetes/basic-commands/</guid>
+      <guid>https://techteresa.pages.dev/docs/kubernetes/basic-commands/</guid>
       <description>&lt;h2 id=&#34;baseline-commands&#34;&gt;Baseline commands&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;kubectl get pods&lt;/code&gt; - check if the pods are starting correctly. You can add &lt;code&gt;| grep -c &amp;lt;deployment-name&amp;gt;&lt;/code&gt; to count how many pods you have at a current time. You can also filter by label: &lt;br&gt;&#xA;&lt;code&gt;kubectl get pods -l &#39;labelname=labelvalue&#39;&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>

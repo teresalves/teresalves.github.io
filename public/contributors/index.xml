@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contributors on Teresa Alves</title>
-    <link>http://localhost:1313/contributors/</link>
+    <link>https://techteresa.pages.dev/contributors/</link>
     <description>Recent content in Contributors on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Thulite</copyright>
-    <atom:link href="http://localhost:1313/contributors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techteresa.pages.dev/contributors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
