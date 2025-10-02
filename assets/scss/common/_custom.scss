@@ -17,3 +17,18 @@ picture img {
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
 }
+
+// Fix emoji rendering to use color emoji fonts
+body {
+  font-family: Jost, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+// Force color emoji rendering in all themes
+* {
+  font-variant-emoji: emoji;
+}
+
+// Prevent text color from affecting emojis
+p, h1, h2, h3, h4, h5, h6, a, span {
+  font-feature-settings: "colr" 1;
+}

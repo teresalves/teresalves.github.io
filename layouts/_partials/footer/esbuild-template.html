@@ -1,0 +1,29 @@
+{{- /* Override to add crossorigin for SRI */ -}}
+{{- $src := .src -}}
+{{- $load := .load | default "" -}}
+{{- $babel := .babel | default site.Params.doks.babel -}}
+{{- $transpile := .transpile | default false -}}
+{{- $targetPath := .targetPath -}}
+{{- $isMultilingual := .isMultilingual -}}
+{{- $searchLimit := .searchLimit -}}
+
+{{- $jsTemplate := resources.Get $src -}}
+{{- $params := dict "isMultilingual" $isMultilingual "searchLimit" $searchLimit -}}
+{{- $jsConfig := (dict "target" "es2015" "params" $params) -}}
+
+{{- $js := "" -}}
+{{- if $babel -}}
+  {{- $babelConfig := (dict "noComments" true "minified" true "config" "config/babel.module.config.js") -}}
+  {{- $js = $jsTemplate | js.Build $jsConfig | babel $babelConfig | fingerprint -}}
+{{- else if eq (hugo.Environment) "development" -}}
+  {{- $jsConfig = (dict "sourceMap" "inline" "target" "es2015" "params" $params) -}}
+  {{- $js = $jsTemplate | js.Build $jsConfig | fingerprint -}}
+{{- else -}}
+  {{- $js = $jsTemplate | js.Build $jsConfig | fingerprint -}}
+{{- end -}}
+
+<script {{ with $load }}{{ . | safeHTMLAttr }}{{ end }}
+  src="{{- $js.RelPermalink -}}"
+  integrity="{{- $js.Data.Integrity -}}"
+  crossorigin="anonymous">
+</script>
