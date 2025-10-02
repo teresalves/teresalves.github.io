@@ -3,21 +3,9 @@
 // Smooth out blur-up transition to prevent flickering
 .blur-up {
   filter: blur(5px);
-  transition: filter 400ms ease-in-out;
-  will-change: filter;
+  transition: filter 400ms ease-in-out, opacity 400ms ease-in-out;
 }
 
 .blur-up.lazyloaded {
   filter: blur(0);
-}
-
-// Prevent layout shifts during image loading
-picture {
-  display: block;
-}
-
-.card img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
