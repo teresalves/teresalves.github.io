@@ -1,11 +1,7 @@
 // Put your custom SCSS code here
 
-// Smooth out blur-up transition to prevent flickering
+// Fix blur-up lazyload causing trailing on Cloudflare Pages
 .blur-up {
-  filter: blur(5px);
-  transition: filter 400ms ease-in-out, opacity 400ms ease-in-out;
-}
-
-.blur-up.lazyloaded {
-  filter: blur(0);
+  filter: none !important;
+  transition: none !important;
 }
