@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on Teresa Alves</title>
-    <link>http://localhost:1313/about-me/events/</link>
+    <link>/about-me/events/</link>
     <description>Recent content in Events on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Thulite</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/about-me/events/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/about-me/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Public Speaking Events</title>
-      <link>http://localhost:1313/about-me/events/public-speaking-events/</link>
+      <link>/about-me/events/public-speaking-events/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/about-me/events/public-speaking-events/</guid>
+      <guid>/about-me/events/public-speaking-events/</guid>
       <description>&lt;h3 id=&#34;diversity-and-inclusion-in-the-tech-world&#34;&gt;Diversity and Inclusion in the tech world&lt;/h3&gt;&#xA;&lt;h6 id=&#34;27062024&#34;&gt;27/06/2024&lt;/h6&gt;&#xA;&lt;p&gt;I was a guest in an event for Career Management in Tech where I spoke about the importance of diversity and inclusion in the workplace, as a representative of &lt;a href=&#34;https://raparigasdocodigo.pt/&#34;&gt;As Raparigas do Código&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

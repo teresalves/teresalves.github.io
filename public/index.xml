@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teresa Alves</title>
-    <link>http://localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Thulite</copyright>
     <lastBuildDate>Sat, 16 Sep 2023 16:27:22 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quick Summary</title>
-      <link>http://localhost:1313/about-me/about-me/quick-summary/</link>
+      <link>/about-me/about-me/quick-summary/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/about-me/about-me/quick-summary/</guid>
+      <guid>/about-me/about-me/quick-summary/</guid>
       <description>&lt;p&gt;Hello and welcome! 👋&lt;/p&gt;&#xA;&lt;p&gt;I am Teresa Alves, a Software Engineer from Portugal 🇵🇹&#xA;I have a background in Control and Automation (aka Math and Robots) and I have professional experience as a backend, platform and systems engineer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dogs</title>
-      <link>http://localhost:1313/about-me/about-me/dogs/</link>
+      <link>/about-me/about-me/dogs/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/about-me/about-me/dogs/</guid>
-      <description>&lt;p&gt;This is the best dog, Ellie:&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xD;&#xA;  &lt;img src=http://localhost:1313/about-me/about-me/ellie.png width=300 height=500/&gt;&#xD;&#xA;  &lt;img src=http://localhost:1313/about-me/about-me/ellie2.png width=300 height=500/&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Right now, she is my only pup. Maybe when she gets less crazy I can get another one.&lt;/p&gt;</description>
+      <guid>/about-me/about-me/dogs/</guid>
+      <description>&lt;p&gt;This is the best dog, Ellie:&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xD;&#xA;  &lt;img src=./about-me/about-me/ellie.png width=300 height=500/&gt;&#xD;&#xA;  &lt;img src=./about-me/about-me/ellie2.png width=300 height=500/&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Right now, she is my only pup. Maybe when she gets less crazy I can get another one.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Overview</title>
-      <link>http://localhost:1313/docs/introduction/overview/</link>
+      <link>/docs/introduction/overview/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/introduction/overview/</guid>
+      <guid>/docs/introduction/overview/</guid>
       <description>&lt;p&gt;These docs summarize some technologies and respective commands related to Backend and Platform Engineering.&lt;/p&gt;&#xA;&lt;p&gt;Feel free to post a PR to update typos or new interesting commands, or put in an issue if you wish to see a whole new module.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Basic Commands</title>
-      <link>http://localhost:1313/docs/docker/basic-commands/</link>
+      <link>/docs/docker/basic-commands/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/docker/basic-commands/</guid>
+      <guid>/docs/docker/basic-commands/</guid>
       <description>&lt;p&gt;&lt;code&gt;docker --version&lt;/code&gt;: Displays the installed version of Docker.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;docker pull &amp;lt;image&amp;gt;&lt;/code&gt;: Downloads a Docker image from a registry.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;docker images&lt;/code&gt;: Lists all the Docker images on the local system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is a Dockerfile</title>
-      <link>http://localhost:1313/docs/docker/what-is-a-dockerfile/</link>
+      <link>/docs/docker/what-is-a-dockerfile/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/docker/what-is-a-dockerfile/</guid>
+      <guid>/docs/docker/what-is-a-dockerfile/</guid>
       <description>&lt;p&gt;WIP&lt;/p&gt;</description>
     </item>
     <item>
       <title>Docker Compose</title>
-      <link>http://localhost:1313/docs/docker/docker-compose/</link>
+      <link>/docs/docker/docker-compose/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/docker/docker-compose/</guid>
+      <guid>/docs/docker/docker-compose/</guid>
       <description>&lt;p&gt;WIP&lt;/p&gt;</description>
     </item>
     <item>
       <title>Basic Commands</title>
-      <link>http://localhost:1313/docs/kubernetes/basic-commands/</link>
+      <link>/docs/kubernetes/basic-commands/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/kubernetes/basic-commands/</guid>
+      <guid>/docs/kubernetes/basic-commands/</guid>
       <description>&lt;h2 id=&#34;baseline-commands&#34;&gt;Baseline commands&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;kubectl get pods&lt;/code&gt; - check if the pods are starting correctly. You can add &lt;code&gt;| grep -c &amp;lt;deployment-name&amp;gt;&lt;/code&gt; to count how many pods you have at a current time. You can also filter by label: &lt;br&gt;&#xA;&lt;code&gt;kubectl get pods -l &#39;labelname=labelvalue&#39;&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Public Speaking Events</title>
-      <link>http://localhost:1313/about-me/events/public-speaking-events/</link>
+      <link>/about-me/events/public-speaking-events/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/about-me/events/public-speaking-events/</guid>
+      <guid>/about-me/events/public-speaking-events/</guid>
       <description>&lt;h3 id=&#34;diversity-and-inclusion-in-the-tech-world&#34;&gt;Diversity and Inclusion in the tech world&lt;/h3&gt;&#xA;&lt;h6 id=&#34;27062024&#34;&gt;27/06/2024&lt;/h6&gt;&#xA;&lt;p&gt;I was a guest in an event for Career Management in Tech where I spoke about the importance of diversity and inclusion in the workplace, as a representative of &lt;a href=&#34;https://raparigasdocodigo.pt/&#34;&gt;As Raparigas do Código&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Greetings</title>
-      <link>http://localhost:1313/blog/greetings/</link>
+      <link>/blog/greetings/</link>
       <pubDate>Mon, 16 Sep 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/greetings/</guid>
+      <guid>/blog/greetings/</guid>
       <description>Welcome to my website</description>
     </item>
     <item>
       <title>Privacy Policy</title>
-      <link>http://localhost:1313/privacy/</link>
+      <link>/privacy/</link>
       <pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate>
-      <guid>http://localhost:1313/privacy/</guid>
+      <guid>/privacy/</guid>
       <description></description>
     </item>
   </channel>
