@@ -53,7 +53,7 @@ jobs:
       - name: Build with Hugo for GitHub Pages
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-          HUGO_ENVIRONMENT: production
+          HUGO_ENVIRONMENT: github
           TZ: America/Los_Angeles
         run: |
           hugo \
@@ -87,7 +87,7 @@ jobs:
       - name: Build with Hugo for Cloudflare Pages
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-          HUGO_ENVIRONMENT: production
+          HUGO_ENVIRONMENT: cloudflare
           TZ: America/Los_Angeles
         run: |
           hugo \

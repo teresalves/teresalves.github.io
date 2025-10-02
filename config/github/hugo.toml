@@ -1,0 +1,3 @@
+# Configuration for GitHub Pages deployment
+canonifyURLs = false
+relativeURLs = true

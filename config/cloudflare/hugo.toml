@@ -1,0 +1,3 @@
+# Configuration for Cloudflare Pages deployment
+canonifyURLs = true
+relativeURLs = false
