@@ -1,25 +1,60 @@
 {{- /* Override to add crossorigin for SRI */ -}}
-{{- $src := .src -}}
-{{- $load := .load | default "" -}}
-{{- $babel := .babel | default site.Params.doks.babel -}}
-{{- $transpile := .transpile | default false -}}
-{{- $targetPath := .targetPath -}}
-{{- $isMultilingual := .isMultilingual -}}
-{{- $searchLimit := .searchLimit -}}
+{{- $src := . -}}
+{{- if not $src -}}
+  {{- errorf `You must provide a source as the partial context, or (dict .src "path")` -}}
+{{- end -}}
 
-{{- $jsTemplate := resources.Get $src -}}
-{{- $params := dict "isMultilingual" $isMultilingual "searchLimit" $searchLimit -}}
-{{- $jsConfig := (dict "target" "es2015" "params" $params) -}}
+{{- $load := "" -}}
+{{- $babel := false -}}
 
-{{- $js := "" -}}
+{{- if reflect.IsMap . -}}
+  {{- with .src -}}
+    {{- $src = . -}}
+  {{- else -}}
+    {{- errorf "as you are providing params as a dict, you must provide the source file as .src" -}}
+  {{- end -}}
+  {{- with .load -}}
+    {{- $loadOpts := slice "async" "defer" -}}
+    {{- if not (in $loadOpts . ) -}}
+      {{- errorf "Invalid .load %q for file /assets/%s - valid options are %s." . $src (delimit $loadOpts ", " " and " ) -}}
+    {{- end -}}
+    {{- $load = . }}
+  {{- end -}}
+  {{- with .babel -}}
+    {{- if eq . true -}}
+      {{- $babel = true -}}
+    {{- else -}}
+      {{- errorf "Invalid .babel option of %q. The only valid option is true" . -}}
+    {{- end -}}
+  {{- end -}}
+{{ end }}
+
+{{- $resource := resources.Get $src -}}
+
+{{- if not $resource }}
+  {{- errorf "No js resource found at /assets/%s" $src -}}
+{{- end -}}
+
+{{- $paramsDefault := (dict "env" hugo.Environment) -}}
+{{- $params := "" -}}
+{{- with .params -}}
+  {{- $params = merge $paramsDefault . -}}
+{{- else -}}
+  {{- $params = $paramsDefault -}}
+{{- end -}}
+{{- $resource = $resource | resources.ExecuteAsTemplate $src . -}}
+
+{{- $jsConfig := (dict "target" "es2015" "minify" "true" "params" $params) }}
+
+{{- $js := $resource -}}
 {{- if $babel -}}
   {{- $babelConfig := (dict "noComments" true "minified" true "config" "config/babel.module.config.js") -}}
-  {{- $js = $jsTemplate | js.Build $jsConfig | babel $babelConfig | fingerprint -}}
+  {{- $js = $js | js.Build $jsConfig | babel $babelConfig | fingerprint -}}
 {{- else if eq (hugo.Environment) "development" -}}
   {{- $jsConfig = (dict "sourceMap" "inline" "target" "es2015" "params" $params) -}}
-  {{- $js = $jsTemplate | js.Build $jsConfig | fingerprint -}}
+  {{- $js = $js | js.Build $jsConfig | fingerprint -}}
 {{- else -}}
-  {{- $js = $jsTemplate | js.Build $jsConfig | fingerprint -}}
+  {{- $js = $js | js.Build $jsConfig | fingerprint -}}
 {{- end -}}
 
 <script {{ with $load }}{{ . | safeHTMLAttr }}{{ end }}
