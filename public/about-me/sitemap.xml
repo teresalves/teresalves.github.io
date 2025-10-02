@@ -2,32 +2,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://techteresa.pages.dev/about-me/about-me/</loc>
+      <loc>/about-me/about-me/</loc>
       <lastmod>2023-09-07T16:06:50+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>https://techteresa.pages.dev/about-me/events/</loc>
+      <loc>/about-me/events/</loc>
       <lastmod>2023-09-07T16:06:50+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://techteresa.pages.dev/about-me/about-me/quick-summary/</loc>
+        <loc>/about-me/about-me/quick-summary/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>https://techteresa.pages.dev/about-me/about-me/dogs/</loc>
+        <loc>/about-me/about-me/dogs/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>https://techteresa.pages.dev/about-me/events/public-speaking-events/</loc>
+        <loc>/about-me/events/public-speaking-events/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>

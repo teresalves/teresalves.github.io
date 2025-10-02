@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About me on Teresa Alves</title>
-    <link>https://techteresa.pages.dev/about-me/about-me/</link>
+    <link>/about-me/about-me/</link>
     <description>Recent content in About me on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Thulite</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="https://techteresa.pages.dev/about-me/about-me/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/about-me/about-me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quick Summary</title>
-      <link>https://techteresa.pages.dev/about-me/about-me/quick-summary/</link>
+      <link>/about-me/about-me/quick-summary/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>https://techteresa.pages.dev/about-me/about-me/quick-summary/</guid>
+      <guid>/about-me/about-me/quick-summary/</guid>
       <description>&lt;p&gt;Hello and welcome! 👋&lt;/p&gt;&#xA;&lt;p&gt;I am Teresa Alves, a Software Engineer from Portugal 🇵🇹&#xA;I have a background in Control and Automation (aka Math and Robots) and I have professional experience as a backend, platform and systems engineer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dogs</title>
-      <link>https://techteresa.pages.dev/about-me/about-me/dogs/</link>
+      <link>/about-me/about-me/dogs/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>https://techteresa.pages.dev/about-me/about-me/dogs/</guid>
-      <description>&lt;p&gt;This is the best dog, Ellie:&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xD;&#xA;  &lt;img src=https://techteresa.pages.dev/about-me/about-me/ellie.png width=300 height=500/&gt;&#xD;&#xA;  &lt;img src=https://techteresa.pages.dev/about-me/about-me/ellie2.png width=300 height=500/&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Right now, she is my only pup. Maybe when she gets less crazy I can get another one.&lt;/p&gt;</description>
+      <guid>/about-me/about-me/dogs/</guid>
+      <description>&lt;p&gt;This is the best dog, Ellie:&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xD;&#xA;  &lt;img src=../../about-me/about-me/ellie.png width=300 height=500/&gt;&#xD;&#xA;  &lt;img src=../../about-me/about-me/ellie2.png width=300 height=500/&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Right now, she is my only pup. Maybe when she gets less crazy I can get another one.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,2 +1,4 @@
 # Overrides for production environment
-baseurl = "https://techteresa.pages.dev/"
+baseurl = "/"
+canonifyURLs = false
+relativeURLs = true

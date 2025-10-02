@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on Teresa Alves</title>
-    <link>https://techteresa.pages.dev/docs/introduction/</link>
+    <link>/docs/introduction/</link>
     <description>Recent content in Introduction on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Thulite</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="https://techteresa.pages.dev/docs/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/docs/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overview</title>
-      <link>https://techteresa.pages.dev/docs/introduction/overview/</link>
+      <link>/docs/introduction/overview/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>https://techteresa.pages.dev/docs/introduction/overview/</guid>
+      <guid>/docs/introduction/overview/</guid>
       <description>&lt;p&gt;These docs summarize some technologies and respective commands related to Backend and Platform Engineering.&lt;/p&gt;&#xA;&lt;p&gt;Feel free to post a PR to update typos or new interesting commands, or put in an issue if you wish to see a whole new module.&lt;/p&gt;</description>
     </item>
   </channel>

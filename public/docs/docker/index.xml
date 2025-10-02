@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Teresa Alves</title>
-    <link>https://techteresa.pages.dev/docs/docker/</link>
+    <link>/docs/docker/</link>
     <description>Recent content in Docker on Teresa Alves</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Thulite</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="https://techteresa.pages.dev/docs/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/docs/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Commands</title>
-      <link>https://techteresa.pages.dev/docs/docker/basic-commands/</link>
+      <link>/docs/docker/basic-commands/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>https://techteresa.pages.dev/docs/docker/basic-commands/</guid>
+      <guid>/docs/docker/basic-commands/</guid>
       <description>&lt;p&gt;&lt;code&gt;docker --version&lt;/code&gt;: Displays the installed version of Docker.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;docker pull &amp;lt;image&amp;gt;&lt;/code&gt;: Downloads a Docker image from a registry.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;docker images&lt;/code&gt;: Lists all the Docker images on the local system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is a Dockerfile</title>
-      <link>https://techteresa.pages.dev/docs/docker/what-is-a-dockerfile/</link>
+      <link>/docs/docker/what-is-a-dockerfile/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>https://techteresa.pages.dev/docs/docker/what-is-a-dockerfile/</guid>
+      <guid>/docs/docker/what-is-a-dockerfile/</guid>
       <description>&lt;p&gt;WIP&lt;/p&gt;</description>
     </item>
     <item>
       <title>Docker Compose</title>
-      <link>https://techteresa.pages.dev/docs/docker/docker-compose/</link>
+      <link>/docs/docker/docker-compose/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>https://techteresa.pages.dev/docs/docker/docker-compose/</guid>
+      <guid>/docs/docker/docker-compose/</guid>
       <description>&lt;p&gt;WIP&lt;/p&gt;</description>
     </item>
   </channel>

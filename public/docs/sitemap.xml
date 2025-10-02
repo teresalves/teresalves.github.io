@@ -2,51 +2,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://techteresa.pages.dev/docs/introduction/</loc>
+      <loc>/docs/introduction/</loc>
       <lastmod>2023-09-07T16:06:50+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>https://techteresa.pages.dev/docs/docker/</loc>
+      <loc>/docs/docker/</loc>
       <lastmod>2023-09-07T16:06:50+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>https://techteresa.pages.dev/docs/kubernetes/</loc>
+      <loc>/docs/kubernetes/</loc>
       <lastmod>2023-09-07T16:06:50+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://techteresa.pages.dev/docs/introduction/overview/</loc>
+        <loc>/docs/introduction/overview/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>https://techteresa.pages.dev/docs/docker/basic-commands/</loc>
+        <loc>/docs/docker/basic-commands/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>https://techteresa.pages.dev/docs/docker/what-is-a-dockerfile/</loc>
+        <loc>/docs/docker/what-is-a-dockerfile/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>https://techteresa.pages.dev/docs/docker/docker-compose/</loc>
+        <loc>/docs/docker/docker-compose/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>https://techteresa.pages.dev/docs/kubernetes/basic-commands/</loc>
+        <loc>/docs/kubernetes/basic-commands/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
