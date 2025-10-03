@@ -26,7 +26,7 @@ body {
 // Consistent blog post card sizes
 .blog.list .card,
 .home .card {
-  height: 500px;
+  height: 450px;
   display: flex;
   flex-direction: column;
 }
@@ -55,11 +55,26 @@ body {
   flex-direction: column;
 }
 
-.blog.list .card-body article p,
-.home .card-body article p {
+.blog.list .card-body article h2,
+.home .card-body article h2 {
+  flex-shrink: 0;
+  margin-bottom: 0.5rem;
+}
+
+.blog.list .card-body article > p:first-of-type,
+.home .card-body article > p:first-of-type {
   flex: 1;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
   -webkit-box-orient: vertical;
+  margin-bottom: 0.5rem;
+}
+
+.blog.list .card-body article > p:last-of-type,
+.home .card-body article > p:last-of-type {
+  margin-top: auto;
+  flex-shrink: 0;
+  margin-bottom: 0;
 }
