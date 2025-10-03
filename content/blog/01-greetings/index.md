@@ -7,7 +7,7 @@ lastmod: 2023-09-16T16:27:22+02:00
 draft: false
 images: []
 weight: 9999
-categories: ["Personal"]
+categories: ["personal"]
 tags: []
 contributors: []
 pinned: false
