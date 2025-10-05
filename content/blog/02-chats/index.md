@@ -132,3 +132,5 @@ Note also that having E2EE is not the only factor here. First, all that is share
 I personally don't trust Meta too much, and all the information I have here is what they tell us. So I would prefer to not use WhatsApp or Instagram a lot. Sharing memes seems fine though.
 
 I would also like to point out that if the Chat Control law gets approved in the EU, then the E2EE will be removed from all chats and this comparison won't matter. But more on this in a follow up blog post.
+
+If you want to read more on E2EE, I strongly recommend [this](https://www.cloudflare.com/learning/privacy/what-is-end-to-end-encryption/) Cloudflare post.

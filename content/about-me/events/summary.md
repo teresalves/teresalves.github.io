@@ -22,7 +22,3 @@ I was a guest in an event for Career Management in Tech where I spoke about the 
 I believe that diversity is important for innovation and to achieve the best solutions. However, we do not currently have enough women in tech to have a 50/50 distribution of men and women in these roles. Because of that, we strive to have more girls interested in the area and we want to make sure that the women (and the other tech minorities) that are already in here feel included and have their voices heard. Being empathetic, respectful and inclusive to your coworkers is much more important than hitting quotas. This last part will come eventually, if the overall environment is pleasant and accepting.
 
 You can read the summary of the discussion and listen to the whole thing [here](https://visao.pt/exame/2024-06-27-diversidade-e-quotas-podemos-estar-a-ir-a-um-extremo-para-tentar-encontrar-um-meio/) (in Portuguese).
-
-
-
-

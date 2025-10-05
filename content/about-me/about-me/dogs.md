@@ -23,4 +23,4 @@ This is the best dog, Ellie:
 
 Right now, she is my only pup. Maybe when she gets less crazy I can get another one.
 
-I gained some knowledge of anxious dogs and how to deal with the anxiety caused by anxious dogs, so feel free to ask me about this too. I can also recommend good trainers and pet stores. And kennels if you're looking to adopt or contribute 🐕
+I gained some knowledge of anxious dogs and how to deal with the anxiety caused by anxious dogs, so feel free to ask me about this too. I can also recommend good trainers and pet stores. And shelters if you're looking to adopt or contribute 🐕
