@@ -1,6 +1,6 @@
 ---
 title: "What messaging apps are safest?"
-description: "hello"
+description: "A breakdown of the most popular ones"
 summary: "We use so many messaging apps nowadays. But are our conversations really private?"
 date: 2025-10-04T22:00:00+02:00
 lastmod: 2025-10-04T22:22:22+02:00
