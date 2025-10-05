@@ -2,8 +2,8 @@
 title: "Greetings"
 description: "hello"
 summary: "Welcome to my website"
-date: 2024-09-16T16:27:22+02:00
-lastmod: 2023-09-16T16:27:22+02:00
+date: 2025-09-16T16:27:22+02:00
+lastmod: 2025-09-16T16:27:22+02:00
 draft: false
 images: []
 weight: 9999
@@ -21,4 +21,6 @@ seo:
 
 Hey there!
 
-I'll be posting some things that interest me. Mostly investigation of technical topics that I want to save to check again. And probably dogs. And other friend shaped animals.
+I'll be posting some things that interest me. Mostly investigation of technical topics that I want to save to check again.
+
+Most things will be done here as part of the TechTeresa initiative to bring more Digital Literacy to Portuguese people, but the blogposts here will always be written in English.
