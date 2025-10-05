@@ -18,8 +18,7 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-
-We use so many messaging platforms nowadays. Sharing private texts and private photos. But how can we be sure that no one else on the internet can access them? It must be stored *somewhere*, right?
+We share so many private texts and photos nowadays. How can we be sure that no one else on the internet can access them? They must be stored *somewhere*, right?
 
 The security and privacy of your chats varies a lot with what platform you use. The most important aspect is that it is *end-to-end* encrypted (E2EE), which means only the person you're texting can actually decipher your messages. I won't get too deep into the technical details, but it basically means that you produce a key (private key) and a lock (public key) pair. Your friend protects a message with the lock you gave them, and only you have the key to open it - no servers anywhere have it, just you on your device.
 
@@ -27,7 +26,7 @@ If anyone intercepts the message, or accesses the database where it is stored, i
 
 Note, however, that if a chat is not E2EE it does not mean it is unencrypted. It usually means it is server-side encrypted, and therefore what is stored in the database is still gibberish. If a random person accesses the database, they cannot read your messages. In practical terms, this means that employees who work on the platform *and* have access to the decryption key can decode and read your messages in plain text. This *does not* mean that  the whole company has these accesses, or that one key decrypts all messages for all users. But it is still considerably less safe than the E2EE approach.
 
-If the app does not have E2EE it also means that if governments or other organizations can make deals with the company in order to decrypt and read your messages. If you know what chat control is, you can probably see where I'm headed here, right? But more on that later.
+If the app does not have E2EE it also means that governments or other organizations can make deals with the company in order to decrypt and read your messages. If you know what Chat Control is, you can probably see where I'm headed here, right? But more on that later.
 
 Let's break it down per platform.
 
@@ -38,11 +37,11 @@ Probably one of the most used platforms. At least I cannot get rid of it no matt
 It is advertised as being end-to-end encrypted so yey ✅
 For both texts and calls.
 
-Maybe you remember that at some point you could only use WhatsApp on your pc when you had it turned on on your phone? It used to have a particular system though, where it used your phone as a primary device and it is where the messages are always decrypted. If you had WhatsApp on your computer, the data is synched there so it always passed by your phone first. So this absurd system where you could not turn off your phone happened to protect your data and keep E2EE. Of course this can be implemented without this impractical system, which is how it works now.
+Maybe you remember that at some point you could only use WhatsApp on your pc when you had it turned on on your phone? It used to have a particular system though, where it used your phone as a primary device and it is where the messages are always decrypted. If you had WhatsApp on your computer, the data was synched there so it always passed by your phone first. So this absurd system where you could not turn off your phone happened to protect your data and keep E2EE (and also because WhatsApp needs you to store your messages locally). Of course this can be implemented without this impractical system, which is how it works now.
 
 One thing I personally dislike about WhatsApp is its inability to store past conversations in the cloud. I need to decide when to back it up? And the prompt keeps popping up? Just do that for me, please. If no one can decrypt it, it should be fine to store it somewhere other than my phone. But storage is expensive so I get it.
 
-# Facebook Messenger (Meta)
+## Facebook Messenger (Meta)
 
 It also has E2EE encryption ✅
 
@@ -54,14 +53,14 @@ Note that this rollout is somewhat new, so before 2024 there was just server-sid
 
 It seems like the same thing applies for group chats so keep that in mind.
 
-# Instagram (Meta)
+## Instagram (Meta)
 
 It is *not* E2EE for calls or video. 🚫
 
 It is a social media platform. It is not really made for texting, or to keep private things private. It is easy to communicate through here but please keep this in mind!
 
 
-# Telegram
+## Telegram
 
 I love Telegram's UI and the fact that all the features it has are then copied by WhatsApp but poorly.
 
@@ -78,8 +77,9 @@ So no information on the sender and no way to read it before you want to click a
 
 But then you have all the features of Telegram that you don't in WhatsApp: scheduling messages, disappearing messages, properly deleting and editing messages, and most of all: not belonging to Meta.
 
+There have been claims that this messaging system has ties with Russia's Federal Security Service, since it is a Russian-made app. But it was also an app that survived the supposed blocks by the Russian government during several pro-democracy movements such as the one in Belarus back in 2020 (more on that [here](https://www.newsweek.com/telegram-messenger-russia-fsb-ties-report-2083491)). So it is understandable if you don't want to use Telegram because you are suspicious of how your data is actually processed, even for supposedly secret chats.
 
-# Signal
+## Signal
 
 I guess we all expect what this one is, as it is their major claim:
 
@@ -91,7 +91,7 @@ It has a similar storage situation to WhatsApp where the messages are stored mos
 
 It seems like Signal is evolving in the right direction, just not at a very fast pace.
 
-# Snapchat
+## Snapchat
 
 Snapchat is an interesting one.
 
@@ -104,7 +104,7 @@ So if you're just sending spicy photos, looks like it's all safe but maybe there
 There are also [some claims](https://www.reddit.com/r/cybersecurity/comments/19egybd/isnt_snapchat_endtoend_encrypted/) over about the uncertain security of Snapchat traffic, but one cannot be sure that it was actually a Snapchat feature, or a bug, or just a guy that had malware installed.
 
 
-# Discord
+## Discord
 
 It is E2EE for calls and video ✅
 
@@ -113,9 +113,9 @@ But not for texts 🚫
 I guess it makes sense in a way, the focus of this app is not really text-communication. It is better to invest in proper security for calls. But I think we'd all be better off if they implemented it for messages too.
 
 
-# Summary
+## Summary
 
-There are a lot of factors to take into account when choosing your preferred messaging app. I vote to always opt for the safest one, but of course that the UI and how many people are actually using it matters.
+There are a lot of factors to take into account when choosing your preferred messaging app. I vote to always opt for the safest one but, of course, the UI and how many people are actually using it also matters.
 
 | Platform | E2EE for texts | E2EE for calls|
 | -------- | ------- | ------- |
