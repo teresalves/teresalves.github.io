@@ -12,6 +12,7 @@
       "code",
       "details",
       "div",
+      "em",
       "figcaption",
       "figure",
       "footer",
@@ -49,9 +50,15 @@
       "style",
       "summary",
       "svg",
+      "table",
+      "tbody",
+      "td",
       "template",
+      "th",
+      "thead",
       "time",
       "title",
+      "tr",
       "ul"
     ],
     "classes": [
@@ -253,10 +260,13 @@
       "baseline-commands",
       "buttonColorMode",
       "creating-secrets",
+      "discord",
       "diversity-and-inclusion-in-the-tech-world",
       "doks-docs-nav",
+      "facebook-messenger-meta",
       "getting-logs-and-events",
       "going-inside-the-pod",
+      "instagram-meta",
       "need-help-with-life",
       "offcanvasNavMain",
       "offcanvasNavMainLabel",
@@ -271,9 +281,14 @@
       "searchResults",
       "searchToggleDesktop",
       "searchToggleMobile",
+      "signal",
+      "snapchat",
       "socialMenu",
+      "summary",
+      "telegram",
       "toc",
-      "want-to-contribute"
+      "want-to-contribute",
+      "whatsapp-meta"
     ]
   }
 }
