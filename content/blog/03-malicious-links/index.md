@@ -1,7 +1,7 @@
 ---
 title: "Oh no! I clicked a malicious link!"
 description: "Will my computer explode?"
-summary: "What happens when we enter a website we should not have clicked"
+summary: "What happens when we enter a website we should not have clicked?"
 date: 2025-10-24T22:00:00+02:00
 lastmod: 2025-10-24T22:22:22+02:00
 draft: false
@@ -19,7 +19,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-I remember panicking when I was younger whenever I opened a malicious website or clicked those big green buttons that said "CLICK ME". I guess that this is a bit embeded in us but we don't really know why we do it.
+I remember panicking when I was younger whenever I opened a malicious website or clicked those big green buttons that said "CLICK ME". And then I closed it right away, in panic.
 
 Now that I have a bit more context I started looking into what exactly happens when you click them.
 
