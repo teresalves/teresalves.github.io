@@ -20,6 +20,8 @@ seo:
 ---
 We share so many private texts and photos nowadays. How can we be sure that no one else on the internet can access them? They must be stored *somewhere*, right?
 
+Edit: This post will focus on the security of the chats regarding how they process your messages. Not your personal data or anything else on your phone.
+
 The security and privacy of your chats varies a lot with what platform you use. The most important aspect is that it is *end-to-end* encrypted (E2EE), which means only the person you're texting can actually decipher your messages. I won't get too deep into the technical details, but it basically means that you produce a key (private key) and a lock (public key) pair. Your friend protects a message with the lock you gave them, and only you have the key to open it - no servers anywhere have it, just you on your device.
 
 If anyone intercepts the message, or accesses the database where it is stored, it just seems like gibberish because it is encrypted and they cannot decrypt it.
@@ -77,7 +79,12 @@ So no information on the sender and no way to read it before you want to click a
 
 But then you have all the features of Telegram that you don't in WhatsApp: scheduling messages, disappearing messages, properly deleting and editing messages, and most of all: not belonging to Meta.
 
-There have been claims that this messaging system has ties with Russia's Federal Security Service, since it is a Russian-made app. But it was also an app that survived the supposed blocks by the Russian government during several pro-democracy movements such as the one in Belarus back in 2020 (more on that [here](https://www.newsweek.com/telegram-messenger-russia-fsb-ties-report-2083491)). So it is understandable if you don't want to use Telegram because you are suspicious of how your data is actually processed, even for supposedly secret chats.
+There have been claims that this messaging system has ties with Russia's Federal Security Service, since it an app made by a Russian person (but registered and developed in Dubai).
+
+But it was also an app that survived the supposed blocks by the Russian government during several pro-democracy movements such as the one in Belarus back in 2020 (more on that [here](https://www.newsweek.com/telegram-messenger-russia-fsb-ties-report-2083491)). There have been times when the government actively tried to block it (report [here](https://www.cbsnews.com/news/telegram-app-banned-in-russia-after-court-ruling/)) and failed miserably (report [here](https://meduza.io/en/feature/2018/04/19/four-days-of-blocking-telegram-in-russia-and-here-we-are)).
+
+So although I do understand suspicion around Telegram, it has survived the Russian govenrment's attacks, and at least they do not process your personal data like Meta does.
+
 
 ## Signal
 
@@ -129,7 +136,7 @@ There are a lot of factors to take into account when choosing your preferred mes
 
 Note also that having E2EE is not the only factor here. First, all that is shared here is based on publicly available information, we do not know how buggy or how truthful it is. Maybe they say it is E2EE but the private keys are stored somewhere in the server (and therefore usable by the company)? Maybe there is a private key but it is per device and not per chat AND device? That would not be great, although not terrible either.
 
-I personally don't trust Meta too much, and all the information I have here is what they tell us. So I would prefer to not use WhatsApp or Instagram a lot. Sharing memes seems fine though.
+I personally don't trust Meta too much, and all the information I have here is what they tell us, although there have been confirmations that they do not have a back door for decrypting the messages (report [here](https://signal.org/blog/there-is-no-whatsapp-backdoor/)). However, the way that Meta processes our data is dubious, even if they do not have access to our messages. They have access to our contacts and they adapt ads according to what they can assess from our preferences. So I would prefer to not use WhatsApp or Instagram a lot. Sharing memes seems fine though.
 
 I would also like to point out that if the Chat Control law gets approved in the EU, then the E2EE will be removed from all chats and this comparison won't matter. But more on this in a follow up blog post.
 
