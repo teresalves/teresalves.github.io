@@ -78,7 +78,7 @@ Para isto não se ter resolvido mais rápido, é porque faltam recursos humanos 
 
 Para já, parece me responsabilidade do Ministério da Administração Interna alocar todos estes recursos e coordenar estes esforços. Mas estes processos demoram, portanto é esperar que consigam mitigar até passar a altura crítica das festas.
 
-No entretanto, desejo um Feliz Natal a todos! 🎄 E boa sorte aos que viajam 🍀
+No entretanto, desejo um Feliz Natal a todos! 🎄 E boa sorte aos que viajam! 🍀
 
 
 ### Mais referências
